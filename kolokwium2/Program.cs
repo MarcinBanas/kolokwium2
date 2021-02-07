@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 
 namespace kolokwium2
 {
@@ -20,6 +21,11 @@ namespace kolokwium2
             tekst = Console.ReadLine();
             List<char> lista = new List<char>();
             List <Pracownik> listapracownikow = new List<Pracownik>();
+            FileStream a = new FileStream("p3.txt",FileMode.Open,FileAccess.ReadWrite,FileShare.Read);
+            foreach (var item in listapracownikow)
+            {
+                
+            }
         }
     }
 }
