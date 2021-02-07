@@ -8,7 +8,7 @@ namespace kolokwium2
     class Serwis
     {
 
-        public Serwis()
+        public Serwis(FileStream path)
         {
 
         }
